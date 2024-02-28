@@ -1,0 +1,39 @@
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .nanum-myeongjo-bold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .nanum-myeongjo-extrabold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .block-div, .block {
+    display: block;
+    color: black;
+    border: 2px solid;
+    padding: .25em;
+    font-family: "Nanum Myeongjo";
+  }
+
+
