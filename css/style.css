@@ -35,18 +35,17 @@ html{ padding-bottom: 75px;}
   }
 
   .topnav {
-  display: block;
+    display: block;
     color: black;
     border: 2px solid;
-    padding: .25em;
+    padding: .23em;
     font-family: "Nanum Myeongjo";
     background-color: white;
     overflow: hidden;
   }
 
   .topnav a {
-  display: block;
-    padding: .25em;
+    display: block;
     font-family: "Nanum Myeongjo";
     float: left;
     color: black;
@@ -62,7 +61,7 @@ html{ padding-bottom: 75px;}
   }
 
   .topnav a:hover {
-  display: block;
+    display: block;
     color: black;
     font-family: "Nanum Myeongjo";
     color: black;
@@ -79,53 +78,57 @@ html{ padding-bottom: 75px;}
     font-size: 30px;
     text-align: center;
     padding: 20px 60px 30px 60px;
-    }
+  }
 
-    h1 {
-        font-family: "Pinyon Script", cursive;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-        font-size: 100px;
-        line-height: 100%
-    }
+  h1 {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 105px;
+    line-height: 100%;
+    margin-top: 30px;
+    margin-bottom: auto;
+  }
 
-    h2 {
-      font-family: "Nanum Myeongjo", serif;
-      font-weight: 400;
-      font-style: normal;
-    }
+  h2 {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 60px;
+  }
     
-    .container {
-      box-sizing: border-box;
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
+  .container {
+    box-sizing: border-box;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
     
-    .container img {
-      vertical-align: middle;
-    }
+  .container img {
+    vertical-align: middle;
+  }
   
-    .prev {
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      margin-left: -153px;
-      padding-right: 10px;
-      padding-left: 10px;
-    }
+  .prev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    margin-left: -153px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 
-    .next {
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      padding-right: 10px;
-      padding-left: 10px;
-      right: 0;
-    }
+  .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    padding-right: 10px;
+    padding-left: 10px;
+    right: 0;
+  }
 
