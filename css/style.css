@@ -1,3 +1,5 @@
+html{ padding-bottom: 75px;}
+
 .nanum-myeongjo-regular {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
@@ -22,12 +24,6 @@
     border: 2px solid;
     padding: .25em;
     font-family: "Nanum Myeongjo";
-  }
-
-  .post {
-    border:1px black;
-    margin-bottom: 1em;
-    padding: .5em 1em;
   }
 
   .right{
@@ -57,8 +53,8 @@
     float: left;
     color: black;
     text-align: left;
-    padding: 14px 16px;
-    font-size: 17px;
+    padding: 7px 9px;
+    font-size: 19px;
     .right{
     float:right;
     }
@@ -76,28 +72,65 @@
     font-weight: 800;
     overflow: hidden;
     border:1px black;
-    margin-bottom: 1em;
-    padding: .5em 1em;
-  }
-
-  .img-container {
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 100px;
+    padding: 7px 9px;
   }
 
   body {
     font-family: "Nanum Myeongjo", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    margin: 1em;
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
-    padding: 60px 60px 60px 60px;
+    padding: 20px 60px 30px 60px;
     }
 
+    h1 {
+        font-family: "Pinyon Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 100px;
+        line-height: 100%
+    }
 
+    h2 {
+      font-family: "Nanum Myeongjo", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .container {
+      box-sizing: border-box;
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    .container img {
+      vertical-align: middle;
+    }
   
+    .prev {
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      margin-left: -153px;
+      border-radius: 0 3px 3px 0;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .next {
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      border-radius: 0 3px 3px 0;
+      padding-right: 10px;
+      padding-left: 10px;
+      right: 0;
+    }
 
