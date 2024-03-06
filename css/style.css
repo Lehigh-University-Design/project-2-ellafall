@@ -85,18 +85,27 @@ html{ padding-bottom: 75px;}
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 105px;
+    font-size: 100px;
     line-height: 100%;
     margin-top: 30px;
-    margin-bottom: auto;
   }
 
   h2 {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
-    margin-top: 60px;
+    font-size: 48px;
+  }
+
+  h3 {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
     
   .container {
